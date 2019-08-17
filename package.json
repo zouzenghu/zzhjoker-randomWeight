@@ -1,0 +1,32 @@
+{
+  "name": "zzhjoker-randomweight",
+  "version": "1.0.1",
+  "description": "根据可指定权重返回随机项",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "typings": "^2.1.1"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register lib/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouzenghu/zzhjoker-randomWeight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zouzenghu/zzhjoker-randomWeight/issues"
+  },
+  "homepage": "https://github.com/zouzenghu/zzhjoker-randomWeight#readme"
+}
